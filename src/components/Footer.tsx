@@ -91,6 +91,10 @@ export default function Footer() {
       <div className="border-t border-white/10 py-6 text-center text-xs">
         Copyright © {new Date().getFullYear()} Fula Africa. All rights reserved.
         {" "}· NPO Registration {site.regNumber}
+        {" "}·{" "}
+        <Link href="/privacy/" className="underline transition-colors hover:text-brand-red">
+          Privacy Policy
+        </Link>
       </div>
     </footer>
   );

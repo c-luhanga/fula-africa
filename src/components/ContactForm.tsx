@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Link from "next/link";
 import { site } from "@/lib/site";
 
 type Status = "idle" | "sending" | "success" | "error";
@@ -98,6 +99,15 @@ export default function ContactForm() {
           className="mt-2 w-full rounded-lg border border-black/10 px-4 py-3 text-sm outline-none focus:border-brand-red"
         />
       </div>
+
+      <p className="text-xs leading-relaxed text-brand-gray">
+        By submitting this form, your information is sent securely via
+        Formspree and used only to respond to your message. See our{" "}
+        <Link href="/privacy/" className="underline hover:text-brand-red">
+          Privacy Policy
+        </Link>
+        .
+      </p>
 
       <button
         type="submit"
