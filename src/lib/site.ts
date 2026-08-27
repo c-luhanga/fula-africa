@@ -10,7 +10,7 @@ export const site = {
     number: "0800 222 777",
     href: "tel:0800222777",
   },
-  formspreeEndpoint: "https://formspree.io/f/YOUR_FORM_ID",
+  formspreeEndpoint: "https://formspree.io/f/xqpkzblb",
   social: {
     facebook: "https://www.facebook.com/FulaAfrica",
     x: "https://x.com/FulaAfrica",
